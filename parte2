@@ -1,0 +1,33 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Pin para múltiplos de 3, Pan para múltiplos de 5 e, Pin e Pan para múltiplos de 3 e 5 simultaneamente. ")
+   //Identificar os múltiplos de 3 e 5
+	for i := 1; i <= 100; i++{
+
+		if i != 100 {
+			if i % 3 == 0 && i % 5 == 0 {
+				fmt.Print("Pin e Pan, ")
+			}else if i % 3 == 0 {
+				fmt.Print("Pin, ")
+			}else if i % 5 == 0 {
+				fmt.Print("Pan, ")
+			} else {
+				fmt.Print(i,", ")
+			}
+		} else {
+			if i % 3 == 0 && i % 5 == 0 {
+				fmt.Print("Pin e Pan")
+			}else if i % 3 == 0 {
+				fmt.Print("Pin")
+			}else if i % 5 == 0 {
+				fmt.Print("Pan")
+			} else {
+				fmt.Print(i)
+			}
+		}
+		
+	}	
+}
