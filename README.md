@@ -1,2 +1,2 @@
-# MultiplosDeTres
-Desafio 2 Parte 1 do curso da Dio.me
+# Multiplos de 3 e Multiplos de 5
+Desafio 2 do curso da Dio.me
