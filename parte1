@@ -6,16 +6,16 @@ func main() {
    
     fmt.Println("Os números múltiplos de 3, no intervalo de 1 a 100 são: ")
  
-	multTres:= true 
+    multTres:= true 
     for i := 1; i <= 100; i++ {
         if i % 3 == 0 {
-			if multTres{
-				fmt.Print(i)
-				multTres = false
-			}else{
-			fmt.Print(", ", i)
-			}
+		if multTres{
+		   fmt.Print(i)
+		   multTres = false
+		}else{
+		   fmt.Print(", ", i)
 		}
+	}
     }
     fmt.Println() 
 }
